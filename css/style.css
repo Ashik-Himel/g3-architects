@@ -44,7 +44,7 @@ h4 {
   font-weight: 600;
 }
 p {
-  max-width: 500px;
+  max-width: 550px;
   margin-bottom: 1.5rem;
   color: var(--light-gray-color);
 }
@@ -222,6 +222,30 @@ ul {
   font-weight: 600;
   display: block;
   margin-bottom: 5px;
+}
+
+/* Sponsors Section */
+.sponsors-section .container > * {
+  margin-inline: auto;
+  text-align: center;
+}
+.sponsors-section .sponsors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-block: 3rem;
+}
+.sponsors-section .sponsors img {
+  width: 150px;
+  filter: grayscale(1);
+  cursor: pointer;
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+.sponsors-section .sponsors img:hover {
+  filter: none;
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 576px) {
