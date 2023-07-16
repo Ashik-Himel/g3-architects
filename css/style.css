@@ -117,6 +117,14 @@ ul {
   align-items: center;
   gap: 1.5rem;
 }
+.header-section nav ul a.active {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+.header-section nav ul a:hover {
+  color: var(--primary-color);
+  transition: color 0.3s ease;
+}
 .header-section nav .fa-bars {
   font-size: 1.5rem;
   padding: 5px 10px;
